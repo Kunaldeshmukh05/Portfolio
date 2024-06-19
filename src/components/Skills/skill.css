@@ -1,0 +1,158 @@
+.icon-grid {
+    padding: 20px;
+  }
+  
+  .icon-col {
+    text-align: center;
+    padding: 5px; /* Padding around each icon */
+    margin: 5px; /* Margin to add spacing between columns */
+  }
+  
+  .icon-col svg {
+    color: #333; /* Change this to your desired color */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .icon-col svg:hover {
+    transform: scale(1.2); /* Enlarge icon on hover */
+  }
+  
+  #col1{
+    background-image: url('../assets/html.png');
+    height: 14vw;
+    width: 14vw;
+    background-size: cover;
+  }
+
+  #col2{
+    background-image: url('../assets/css3.webp');
+    height: 16vw;
+    width: 16vw;
+    background-size: cover;
+  }
+
+  #col3{
+    background-image: url('../assets/js.png');
+    border-radius: 10vw;
+    height: 15vw;
+    width: 15vw;
+    background-size: cover;
+    margin: 1vw;
+  }
+
+  #col4{
+    background-image: url('../assets/image.png');
+    margin:2vw;
+    height: 13vw;
+    width: 13vw;
+    background-position: center ;
+    background-size:cover;
+
+  }
+
+  
+  #col5{
+    background-image: url('../assets/reat.webp');
+    margin-top: 2vw;
+    height: 15vw;
+    width: 15vw;
+    background-size: cover;
+  }
+
+  #col6{
+    background-image: url('../assets/node.png');
+    margin-top: 2vw;
+    height: 15vw;
+    width: 15vw;
+    background-size: cover;
+    background-color: white;
+  }
+
+  #col7{
+    background-image: url('../assets//mongodb_original_wordmark_logo_icon_146425.png');
+    margin-top: 2vw;
+    height: 15vw;
+    width: 15vw;
+    background-size: cover;
+    background-color: white;
+  }
+
+  #col8{
+    background-image: url('../assets/express-js.png');
+    margin-top: 2vw;
+    height: 15vw;
+    width: 15vw;
+    background-size: cover;
+    background-color: white;
+  }
+
+  #col9{
+    background-image: url('../assets/git_original_wordmark_logo_icon_146510.png');
+    margin: 2vw;
+    
+    height: 15vw;
+    width: 15vw;
+    background-size: cover;
+    background-color: white;
+  }
+
+  #col10{
+    background-image: url('../assets/github_logo_icon_143772.png');
+    margin: 2vw;
+    
+    height: 15vw;
+    width: 15vw;
+    background-size: cover;
+    background-color: white;
+  }
+
+  #col11{
+    background-image: url('../assets/google_firebase_icon-icons.com_61474.png');
+    margin: 2vw;
+    
+    height: 14vw;
+    width: 14vw;
+    background-size: cover;
+    background-color: white;
+  }
+
+  #col12{
+    background-image: url('../assets/google_cloud_logo_icon_171058.png');
+    margin: 2vw;
+    
+    height: 14vw;
+    width: 14vw;
+    background-size: cover;
+    background-color: white;
+  }
+
+  #col13{
+    background-image: url('../assets/rest.jpg');
+    margin: 2vw;
+    height: 16vw;
+    width: 16vw;
+    background-size: cover;
+    background-color: white;
+  }
+
+  
+  #col14{
+    background-image: url('../assets/amazon_aws_logo_icon_145507.png');
+    margin: 2vw;
+    height: 15vw;
+    width: 15vw;
+    background-size:cover;
+    background-color: white;
+  }
+
+  
+  #col15{
+    background-image: url('');
+    margin: 2vw;
+    
+    height: 15vw;
+    width: 15vw;
+    background-size:;
+    background-color: white;
+  }
+

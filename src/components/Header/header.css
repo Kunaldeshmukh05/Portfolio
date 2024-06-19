@@ -1,0 +1,6 @@
+.fixed-top-navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1030; /* Higher z-index to ensure it stays above other content */
+  }
+  
