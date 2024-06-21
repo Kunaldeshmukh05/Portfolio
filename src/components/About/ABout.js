@@ -1,8 +1,17 @@
 import React from "react";
 import { Button, Container } from "react-bootstrap";
 import "./about.css";
+import { useNavigate } from 'react-router-dom';
 
 const About = () => {
+
+  const navigate = useNavigate();
+
+  const handleRedirect = () => {
+    navigate('/skills');
+  };
+
+
   return (
     <>
       <br></br>
@@ -30,11 +39,11 @@ const About = () => {
       </div>
 
       <div className="d-flex justify-content-center mt-4">
-      <Button variant="primary" className="button-primary me-2">
-        Go to Page
+      <Button variant="secondary" size="lg" className="button-primary me-2" onClick={handleRedirect}>
+        SKILLS   
       </Button>
-      <Button variant="secondary" className="button-secondary">
-        Download Resume
+      <Button variant="secondary" size="lg" className="button-secondary">
+        RESUME
       </Button>
     </div>
       <br></br>

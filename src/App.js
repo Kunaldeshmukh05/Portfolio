@@ -6,7 +6,7 @@ import Skills from './components/Skills/Skills.js';
 import About from './components/About/ABout.js';
 import Main from './components/MainPage/main.js';
 import './App.css';
-
+import Project from './components/Projects/Project.js';
 function App() {
   return (
 
@@ -24,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/main" element={<Main />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path='/project' element={<Project/>}/>
         </Routes>
       </BrowserRouter>
     </div>

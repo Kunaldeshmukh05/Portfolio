@@ -19,7 +19,7 @@ const Header = () => {
             <LinkContainer to="/Skills" style={{marginLeft:'10vw'}}>
               <Nav.Link>Skills</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/Projects" style={{marginLeft:'10vw'}}>
+            <LinkContainer to="/Project" style={{marginLeft:'10vw'}}>
               <Nav.Link>Projects</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/Experience"  style={{marginLeft:'10vw'}}>

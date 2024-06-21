@@ -30,6 +30,8 @@ const Skills = () => {
 
         </Row>
       </Container>
+      <hr style={{ border: "1px solid black" }} />
+
     </>
   );
 };

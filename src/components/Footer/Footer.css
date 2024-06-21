@@ -1,0 +1,16 @@
+.footer {
+    background-color: #343a40; /* Adjust background color as per your design */
+    color: #ffffff; /* Text color */
+    padding: 20px 0; /* Vertical padding */
+  }
+  
+  .footer-link {
+    color: #ffffff; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.2s; /* Smooth color transition on hover */
+  }
+  
+  .footer-link:hover {
+    color: #cccccc; /* Color on hover */
+  }
+  
